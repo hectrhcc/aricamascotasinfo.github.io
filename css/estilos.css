@@ -264,10 +264,14 @@ footer{
 .brand{
 	font-weight: 500;
 	font-size: 40px;
+	padding: 10px;
 }
 
 .brand+p{
 	font-weight: 500;
+	padding-left: 12px;
+	text-indent: 0;
+	text-align: justify;
 }
 
 .social-media{
