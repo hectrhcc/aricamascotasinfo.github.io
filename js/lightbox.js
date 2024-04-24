@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => { //para que funcionen los alert
+document.addEventListener('DOMContentLoaded', () => { 
 const imagenes = document.querySelectorAll('.img-galeria')
 const imagenesLight = document.querySelector('.agregar-imagen')
 const contenedorLight = document.querySelector('.imagen-light') //clase imagen-light
