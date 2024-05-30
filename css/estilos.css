@@ -11,7 +11,7 @@ body{
 .contenedor{
 	width: 90%;
 	max-width: 1200px;
-	overflow: hidden;
+	overflow: auto;
 	margin: 0 auto;
 	padding: 60px 0;
 }
@@ -39,7 +39,7 @@ header{
 }
 
 .navegar{
-	/*z-index: 10;*/
+	z-index: 1;
 	position: fixed;
 	top:30px;
 	right: 30px;
@@ -67,10 +67,10 @@ header{
 	box-shadow: 0 0 6px rgba(0,0,0,.5);
 }
 
-/*header:hover .menu-navegacion{
+header:hover .menu-navegacion{
 	transform:translate(110%);
 
-}*/
+}
 
 .spread{
 	transform:translate(0);
