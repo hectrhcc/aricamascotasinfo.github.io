@@ -4,17 +4,12 @@
 	box-sizing: border-box;
 }
 
-:root{
-	scroll-behavior: smooth;
-}
-
-
 body{
 	font-family: 'Open Sans', sans-serif;
 }
 
 .contenedor{
-	widht: 90%;
+	width: 90%;
 	max-width: 1200px;
 	overflow: hidden;
 	margin: 0 auto;
@@ -224,11 +219,11 @@ header{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	/*flex-wrap: wrap;*/
+	flex-wrap: wrap;
 }
 
 .cont-adopcion{
-	width: 60%
+	width: 60%;
 	margin-bottom: 20px;
 	margin-left: 10px; 
 	margin-right:10px;
@@ -247,8 +242,6 @@ header{
 	width:100%;
 	font-weight: 0;
 }
-
-/* Footer */
 
 footer{
 	background: #9f8ad0;
