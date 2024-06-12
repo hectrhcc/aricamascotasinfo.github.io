@@ -391,7 +391,7 @@ footer{
 @media (max-width:389px){
 	header{
 	width:100%;
-	background-size:50%;
+	background-size:auto;
 	height:80vh;
 }
 }
