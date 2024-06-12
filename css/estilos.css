@@ -390,9 +390,8 @@ footer{
 
 @media (max-width:389px){
 	header{
-	border:3px solid red;
 	width:100%;
-	background-size:50%
+	background-size:50%;
 	height:80vh;
 }
 }
