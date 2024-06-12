@@ -160,6 +160,7 @@ header{
 	margin-bottom: 15px;
 	box-shadow: 0 0 6px rgba(0,0,0,.5);
 	cursor:pointer;
+	
 }
 
 .imagen-light{  
@@ -363,7 +364,7 @@ footer{
 
 	}
 	.agregar-imagen{
-		width: 95px;
+		width: 20rem;
 	}
 	.adopcion{
 		top:20px;
@@ -386,3 +387,12 @@ footer{
 		width: 90%;
 	}
 } 
+
+@media (max-width:389px){
+	header{
+	border:3px solid red;
+	width:100%;
+	background-size:cover;
+	height:70vh;
+}
+}
