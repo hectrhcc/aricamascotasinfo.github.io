@@ -3,6 +3,18 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+::-webkit-scrollbar {
+	width: 1rem; /* Ancho de la barra */
+	
+	}
+	::-webkit-scrollbar-track {
+	background: #f1f1f1; /* Color de fondo de la barra de desplazamiento */
+	}
+	::-webkit-scrollbar-thumb {
+	background: linear-gradient(transparent,#9f8ad0);
+	border-radius:4rem;
+	height:8rem;
+	}
 
 body{
 	font-family: 'Open Sans', sans-serif;
