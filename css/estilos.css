@@ -93,17 +93,13 @@ header{
 .titulo{
 	font-size: 60px;
 	margin-bottom: 15px;
+	color:#9F8AD0;
 }
 
-.texto{
-	 color: transparent; /* Hacemos el color del texto transparente */
-  background-image: linear-gradient(transparent,rgb(189, 169, 236)); /* Aplicamos el degradado como fondo */
-  background-clip: text; /* Recortamos el fondo al área del texto */
-  -webkit-background-clip: text; /* Para navegadores basados en WebKit (Safari, Chrome) */
-}
+
 
 .bienvenida{
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.2);
 	border-radius: 5px;
 	padding:23px;
 	position: relative;
