@@ -52,7 +52,7 @@ header{
 }
 
 .navegar{
-	z-index: 1;
+	z-index: 3;
 	position: fixed;
 	top:30px;
 	right: 30px;
@@ -78,6 +78,7 @@ header{
 	transition: transform .2s ease-in-out;
 	transform: translate(110%);
 	box-shadow: 0 0 6px rgba(0,0,0,.5);
+	z-index: 2;
 }
 
 
